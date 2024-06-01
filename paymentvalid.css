@@ -86,6 +86,10 @@ nav button:hover{
 
 .midle img {
     width: 300px;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-left: 30%;
+    margin-top: 50px;
 }
 
 .midle img{
@@ -98,8 +102,9 @@ nav button:hover{
     margin-left: 13%;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 30%;
 }
-.midle button a{
+.midle a button {
     background-color: #47B587;
     color: #f3f3f3;
     font-size: 12px;
@@ -111,9 +116,10 @@ nav button:hover{
     text-transform: uppercase;
     padding-top: 10px;
     cursor: pointer;
-    margin-left: 5%;
+    margin-left: 300px;
+  
 }
-.midle button a :hover{
+.midle a button:hover{
     background-color:#fff;
     border: 2px solid #47B587;
     color: #47B587;
